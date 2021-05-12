@@ -1,0 +1,9 @@
+@import "_main.scss";
+
+body{
+    background-color: $bgColor;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

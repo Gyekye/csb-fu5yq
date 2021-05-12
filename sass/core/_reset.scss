@@ -1,0 +1,26 @@
+@import "../core/variables";
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: $regularFont;
+    font-size: $regularFontSize;
+}
+
+hr { 
+    border: 0.1px solid $tertiaryColor;
+    background-color: $tertiaryColor;
+    width: 100%;
+    margin: auto;
+    height: 0.3px;
+
+} 
+
+input::placeholder{
+    font-family: $regularFont;
+    font-size: $regularFontSize;
+    color:$placeholderColor;
+}
